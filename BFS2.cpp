@@ -215,17 +215,17 @@ Station* findStation(Station* stations[], int count,string& code) {
 int main()
 {
 	// Proper initialization with all struct members
-	Station a1 = {"a1","MID VALLEY", "KELANA JAYA"};
-	Station a2 = {"a2","KLCC", "KELANA JAYA"};
-	Station a3 = {"a3","PASAR SENI", "KELANA JAYA" };
+	Station a1 = {"a1","(CGC)Glenmarie", "KELANA JAYA"};
+	Station a2 = {"a2","PASAR SENI", "KELANA JAYA"};
+	Station a3 = {"a3","KLCC", "KELANA JAYA" };
 
-	Station b1 = {"b1","TRX", "SUBANG"};
-	Station b2 = {"b2","PAVILLION", "SUBANG" };
-	Station b3 = {"b3","SUNWAY PYRAMID", "SUBANG"};
+	Station b1 = {"b1","BANDAR UTAMA", "KAJANG"};
+	Station b2 = {"b2","MUZIUM NEGARA", "KAJANG" };
+	Station b3 = {"b3","BUKIT BINTANG", "KAJANG"};
 
-	Station c1 = {"c1","SUNWAY VELOCITY", "PJ" };
-	Station c2 = {"c2","LALAPORT", "PJ" };
-	Station c3 = {"c3","OLD KLANG ROAD", "PJ" };
+	Station c1 = {"c1","HANG TUAH", "SRI PETALING" };
+	Station c2 = {"c2","CHERAS", "SRI PETALING" };
+	Station c3 = {"c3","BANDAR PUTERI", "SRI PETALING" };
 
 	// Build connections step by step
     
