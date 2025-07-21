@@ -39,9 +39,9 @@ struct Station
 	Station *predecessor; //onlu purpose if for tracking to be printed later
 	
 	Station(string code,string name, string line)
-		: station_code(code),station_name(name), station_line(line), visited_status(false), station_count(0), predecessor(nullptr) {
+		: station_code(code),station_name(name), station_line(line), visited_status(false), station_count(0), predecessor(NULL) {
 		for (int i = 0; i < 9; ++i)
-			linked_station[i] = nullptr;
+			linked_station[i] = NULL;
 	}
 };
 
